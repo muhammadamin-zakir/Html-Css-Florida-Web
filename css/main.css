@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.sag ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.sag ul li a {
+    padding: 1rem 1rem;
+    color: #495057;
+}
+
+.sag ul li i {
+    padding: 0.1em;
+    font-size: 1.5rem;
+    color: #339AF0;
+}
+
+.sag ul li a:hover {
+    color: inherit;
+}
+
+.bas {
+    display: flex;
+    align-items: center;
+}
+
+.bas i {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    font-size: 2rem;
+}
+
+.bas h1:hover {
+    color: #76BFF9;
+}
+
+.backgroundimg {
+    background: url("/img/diamond.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundimg a {
+    color: white;
+    background-color: #339AF0;
+    opacity: 0.6;
+    border: 1px solid black;
+    border-bottom-width: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    border-radius: 0.5rem;
+}
+
+.backgroundimg a:hover {
+    border: 1px solid black;
+    background-color: #339AF0;
+    opacity: 1;
+    color: white;
+    border-bottom-width: 5px;
+
+}
+
+.backgroundimg p {
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.courses {
+    background-color: #FFEFD5;
+    padding: 4rem 0;
+}
+
+.courses ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.courses ul li {
+    margin: 0.8rem auto;
+}
+
+.isim-kismi li a {
+    border: 1px solid black;
+    padding: 0.75rem 2rem;
+    opacity: 0.6;
+    background-color: #339AF0;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.isim-kismi li a:hover {
+    opacity: 1;
+}
+
+.img-kismi img {
+    border-radius: 300px;
+    border: 2px solid black;
+}
+
+footer {
+    width: auto;
+    background-color: #343A40;
+}
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sol-2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.sol-2 ul li {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sol-2 ul li a {
+    color: white;
+}
+
+.sol-2 ul li a:hover {
+    color: #111;
+    text-shadow: 0px 0px 3px #111;
+}
+
+.sag-2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.sag-2 ul li {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sag-2 ul li a {
+    color: white;
+    font-size: 30px;
+
+}
+
+.sag-2 ul li a:hover {
+    color: #339AF0;
+    text-shadow: 0px 0px 3px #339AF0;
+}
